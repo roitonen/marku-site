@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Marku is a simple, fast, and lightweight Markdown editor for macOS with live preview, source editing, math, diagrams, tables, and syntax highlighting."
+    >
+    <title>Marku - Fast and lightweight Markdown editor for macOS</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Marku home">
+        <img src="assets/marku-icon.png" width="36" height="36" alt="">
+        <span>Marku</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#themes">Themes</a>
+        <a class="nav-download" href="#download">Download</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Simple, fast, and lightweight</p>
+          <h1>Write Markdown.<br>See the result.</h1>
+          <p class="hero-intro">
+            Marku combines a focused live preview with a complete source editor.
+            Work with local files, switch views instantly, and keep your writing
+            close to the final result.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#download">Download for macOS</a>
+            <a class="button button-secondary" href="#features">Explore features</a>
+          </div>
+
+          <ul class="trust-line" aria-label="Product highlights">
+            <li>macOS desktop app</li>
+            <li>Local files</li>
+            <li>Live preview</li>
+          </ul>
+        </div>
+
+        <div class="hero-media">
+          <div class="product-shot product-shot-main">
+            <img
+              class="product-image"
+              src="assets/marku-main.webp"
+              alt="Marku displaying a Markdown syntax guide"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-intro" id="features">
+        <p class="eyebrow">Everything in one document</p>
+        <h2>Markdown beyond plain text</h2>
+        <p>
+          Preview rich content while you write, or switch to Source View when
+          you want direct control over the document.
+        </p>
+      </section>
+
+      <section class="feature-row">
+        <div class="feature-copy">
+          <p class="feature-number">01</p>
+          <h2>Math that stays readable</h2>
+          <p>
+            Write inline and display equations with familiar Markdown syntax.
+            Marku renders them with KaTeX directly in the document.
+          </p>
+          <code>$$ E = mc^2 $$</code>
+        </div>
+        <div class="feature-media">
+          <div class="product-shot product-shot-image">
+            <img
+              class="product-image"
+              src="assets/marku-math.webp"
+              alt="Mathematical formulas rendered in Marku"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-row feature-row-reverse">
+        <div class="feature-copy">
+          <p class="feature-number">02</p>
+          <h2>Tables without leaving the page</h2>
+          <p>
+            Create and edit GFM tables, including column alignment, then inspect
+            the rendered result immediately.
+          </p>
+        </div>
+        <div class="feature-media">
+          <div class="product-shot product-shot-image">
+            <img
+              class="product-image"
+              src="assets/marku-tables.webp"
+              alt="A Markdown table rendered in Marku"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-row">
+        <div class="feature-copy">
+          <p class="feature-number">03</p>
+          <h2>Code with syntax highlighting</h2>
+          <p>
+            Fenced code blocks support popular languages including Rust,
+            JavaScript, TypeScript, Python, Go, Swift, SQL, and more.
+          </p>
+        </div>
+        <div class="feature-media">
+          <div class="product-shot product-shot-image">
+            <img
+              class="product-image"
+              src="assets/marku-code.webp"
+              alt="A syntax-highlighted code block in Marku"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-row feature-row-reverse">
+        <div class="feature-copy">
+          <p class="feature-number">04</p>
+          <h2>Diagrams from text</h2>
+          <p>
+            Describe a flowchart or sequence in a Mermaid code block and see
+            the rendered diagram inside the document.
+          </p>
+        </div>
+        <div class="feature-media">
+          <div class="product-shot product-shot-image">
+            <img
+              class="product-image"
+              src="assets/marku-mermaid.webp"
+              alt="A Mermaid diagram rendered in Marku"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-row">
+        <div class="feature-copy">
+          <p class="feature-number">05</p>
+          <h2>Preview and source, one workflow</h2>
+          <p>
+            Edit rendered blocks for focus or open the complete Markdown source
+            with CodeMirror. Your undo history follows you across both modes.
+          </p>
+        </div>
+        <div class="feature-media">
+          <div class="product-shot product-shot-image">
+            <img
+              class="product-image"
+              src="assets/marku-source-view.webp"
+              alt="The full Markdown source editor in Marku"
+              loading="lazy"
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="themes" id="themes">
+        <div class="themes-copy">
+          <p class="eyebrow">Make it yours</p>
+          <h2>Thirty themes, one consistent interface</h2>
+          <p>
+            Choose from light and dark themes. The editor, preview, tabs, and
+            surrounding interface adapt together.
+          </p>
+        </div>
+
+        <div class="product-shot product-shot-image product-shot-themes">
+          <img
+            class="product-image"
+            src="assets/marku-themes.webp"
+            alt="Marku shown with several light and dark themes"
+            loading="lazy"
+          >
+        </div>
+      </section>
+
+      <section class="download" id="download">
+        <img src="assets/marku-icon.png" width="72" height="72" alt="">
+        <p class="eyebrow">Marku for macOS</p>
+        <h2>Your Markdown stays close.</h2>
+        <p>Local files, familiar shortcuts, and a focused editing experience.</p>
+        <span class="button button-primary button-large">Download coming soon</span>
+        <small>
+          Version, download size, and system requirements will be added before
+          release.
+        </small>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Roitonen</p>
+      <a class="brand brand-small" href="#top">
+        <img src="assets/marku-icon.png" width="28" height="28" alt="">
+        <span>Marku</span>
+      </a>
+    </footer>
+  </body>
+</html>
