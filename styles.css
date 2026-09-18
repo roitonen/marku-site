@@ -600,7 +600,7 @@ a.button-secondary:hover {
     padding-inline: 20px;
     font-size: 13px;
   }
-
+}
 
 @media (max-width: 390px) {
   body {
@@ -634,16 +634,16 @@ a.button-secondary:hover {
     transition: none;
   }
 }
-
+  
 /*
-  A dark theme can be added later without restructuring the page:
+A dark theme can be added later without restructuring the page:
 
-  :root[data-theme="dark"] {
-    color-scheme: dark;
-    --background: #181918;
-    --surface: #222320;
-    --text: #f5f5ef;
-    --text-muted: #b6b6ae;
-    --line: #363732;
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #181918;
+  --surface: #222320;
+  --text: #f5f5ef;
+  --text-muted: #b6b6ae;
+  --line: #363732;
   }
 */
