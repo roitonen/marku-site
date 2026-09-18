@@ -425,10 +425,6 @@ a.button-secondary:hover {
   padding-inline: 28px;
 }
 
-.download small {
-  max-width: 520px;
-  color: var(--text-muted);
-}
 
 .site-footer {
   display: flex;
@@ -605,10 +601,6 @@ a.button-secondary:hover {
     font-size: 13px;
   }
 
-  .download small {
-    font-size: 11px;
-  }
-}
 
 @media (max-width: 390px) {
   body {
